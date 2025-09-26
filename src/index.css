@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@font-face {
+    font-family: 'FuturaBkBT';
+    src: url('./assets/Fonts/futura-bk-bt-book.ttf') format('truetype');
+}
+body {
+    font-family: 'FuturaBkBT', sans-serif;
+}

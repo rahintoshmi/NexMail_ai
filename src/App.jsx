@@ -1,13 +1,14 @@
 import './App.css'
 import Banner from './Banner'
 import Experience from './Experience'
+import Footer from './Footer'
 import Home from './Home'
 import Motions from './Motions'
 import Navbar from './Navbar'
 import Question from './Question'
 import Version from './Version'
 import Vision from './Vision'
-
+import './index.css'; 
 function App() {
   return (
     <>
@@ -31,6 +32,7 @@ function App() {
     <Question></Question>
     {/* Motions */}
     <Motions></Motions>
+    <Footer></Footer>
     </>
   )
 }

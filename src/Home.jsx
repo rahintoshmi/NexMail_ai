@@ -3,7 +3,7 @@ import banner from './assets/Tool.png';
 
 const Home = () => {
     return (
-        <div className="pt-20 md:pt-50 pb-10 md:pb-20 relative bg-[radial-gradient(circle,_#8a5bb8_0%,_#290440_60%,_#150220_100%)] shadow-[0_42px_54px_0_rgba(0,0,0,0.31)] flex flex-col items-center justify-center">
+        <div className="pt-10 md:pt-50 pb-5 md:pb-20 relative bg-[radial-gradient(circle,_#8a5bb8_0%,_#290440_60%,_#150220_100%)] shadow-[0_42px_54px_0_rgba(0,0,0,0.31)] flex flex-col items-center justify-center">
             {/* Banner image (in front, positioned above) */}
             <img
                 src={banner}
