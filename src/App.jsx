@@ -2,7 +2,9 @@ import './App.css'
 import Banner from './Banner'
 import Experience from './Experience'
 import Home from './Home'
+import Motions from './Motions'
 import Navbar from './Navbar'
+import Question from './Question'
 import Version from './Version'
 import Vision from './Vision'
 
@@ -25,6 +27,10 @@ function App() {
 
     {/* version */}
     <Version></Version>
+    {/* Question */}
+    <Question></Question>
+    {/* Motions */}
+    <Motions></Motions>
     </>
   )
 }
