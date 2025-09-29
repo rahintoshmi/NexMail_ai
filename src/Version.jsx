@@ -6,8 +6,8 @@ import { BsDashLg } from "react-icons/bs";
 import { IoDiamondOutline } from "react-icons/io5";
 const Version = () => {
     return (
-        <div className='bg-[#1a032b] pb-[64px] mx-auto px-5 md:px-[130px] pt-[20px] md:pt-[100px]'>
-            <div className='flex flex-col md:flex-row gap-9'>
+        <div className='bg-[#1a032b] pb-[64px] mx-auto px-5 md:px-[100px] lg:px-[200px] pt-[20px] md:pt-[100px]'>
+            <div className='flex flex-col md:flex-row gap-10'>
                 <div className='mt-32 hidden md:block'>
                     <a href="#" className='ms-4 font-normal text-[16px] text-[#ff6161] bg-[rgba(255,97,97,0.15)] rounded-[6px] py-1 px-2'>v1.0</a>
                     <div className='flex whitespace-nowrap'><h3 className='mt-4 font-normal text-[16px] text-[#c2c7ca]'>July 2,2025</h3></div>

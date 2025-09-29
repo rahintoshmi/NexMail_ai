@@ -1,10 +1,25 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* src/index.css or a dedicated font.css file */
+
 @font-face {
-    font-family: 'FuturaBkBT';
-    src: url('./assets/Fonts/futura-bk-bt-book.ttf') format('truetype');
+    font-family: 'MyCustomFont';
+    /* This is the name you'll use in Tailwind */
+    src: url('./assets/Fonts/Futura.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./assets/Fonts/Futura.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    font-family: 'FuturaBkBT', sans-serif;
+    font-family: 'MyCustomFont', sans-serif;
 }

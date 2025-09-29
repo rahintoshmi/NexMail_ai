@@ -2,7 +2,6 @@ import './App.css'
 import Banner from './Banner'
 import Experience from './Experience'
 import Footer from './Footer'
-import Home from './Home'
 import Motions from './Motions'
 import Navbar from './Navbar'
 import Question from './Question'
@@ -17,9 +16,6 @@ function App() {
 
     {/* banner section */}
     <Banner></Banner>
-
-    {/* home page */}
-    <Home></Home>
     {/* experice */}
     <Experience></Experience>
 
